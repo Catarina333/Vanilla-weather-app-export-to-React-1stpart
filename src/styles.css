@@ -1,0 +1,106 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  font-family: "Asap", sans-serif;
+  color: #fafafa;
+  font-size: 19px;
+}
+
+.weather-app {
+  border: 5px;
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  max-width: 380px;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.form-control {
+  display: block;
+  width: 210px;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.3rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.search {
+  border: 3px solid;
+  border-radius: 0.3rem;
+  border: 1px solid #517fa4;
+  background-color: #243949;
+  color: #fafafa;
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
+  float: left;
+}
+
+.current-location {
+  border-radius: 0.3rem;
+  background-color: #517fa4;
+  border: 1px solid #243949;
+  color: #fafafa;
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
+}
+
+.image_sun {
+  height: 64px;
+  width: 64px;
+  margin: 10px;
+  float: left;
+  color: #fafafa;
+  font-size: 50px;
+}
+
+.weather-unit {
+  font-size: 20px;
+  font-weight: 50;
+  position: relative;
+  top: -20px;
+  margin-left: -5px;
+}
+
+.weather-unit a {
+  color: #293a80;
+}
+
+.weather-unit .active {
+  color: #010038;
+  font-weight: 900;
+}
+
+.weather-unit .active:hover {
+  color: #010038;
+  font-weight: 900;
+  cursor: default;
+}
+
+.code {
+  color: #243949;
+}
+
+h1 {
+  margin: 0px;
+  float: left;
+  color: #fafafa;
+  border: 10px;
+  border-radius: 20px;
+  margin-top: -80px;
+}
+
+h2 {
+  height: 64px;
+  width: 64px;
+  margin-top: -20px;
+  float: left;
+  color: #fafafa;
+  font-size: 30px;
+}
